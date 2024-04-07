@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Merienda:wght@300..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.title-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 3rem;
+    color: whitesmoke;
+    
+}
+    
+.title-logo :hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+
+nav {
+    display: flex;
+    background-color: #120d3f;
+    width: 90%;
+    padding: 2px 0;
+    align-items: center;
+    position: absolute;
+    justify-content: space-between;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+nav ul {
+    margin-right: 5rem;
+}
+
+nav ul li {
+    display:inline-block;
+    list-style: none;
+    margin: 0 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: transform 0.2s; 
+    display: inline-block; 
+}
+
+nav ul li a:hover {
+    transform: scale(1.2); 
+    background-color: white;
+    padding: 5px 0;
+}
+
+.date-time{
+    border: 2 solid black;
+}

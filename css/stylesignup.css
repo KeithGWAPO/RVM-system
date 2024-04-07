@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Merienda:wght@300..900&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #baf2ff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-all{
+    display: flex;
+    background-color: rgba(123, 123, 123, 0.493);
+    border-radius: 40px;
+    width: 1100px;
+    height: 80vh;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.left-right-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-box{
+    width: 550px;
+}
+
+.right-box{
+    width: 550px;;
+    background-color: white;
+}
+
+.left-upper-box{
+    align-items: flex-start;
+    width: 550px;
+    height: 50px;
+    
+}
+
+.right-upper-box{
+    align-items: flex-start;
+    width: 550px;
+    height: 50px;
+    
+}
+
+.logo{
+    border-radius: 500px;
+    margin-top: 15px;
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.492);
+}
+
+.h1t{
+    font-size:40px;
+    text-align: center;
+}
+
+.h2t{
+    font-style: normal;
+    text-align: center;
+}
+
+.title-box{
+    background-color: rgb(81, 81, 81);
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 50px;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.492);
+}
+
+.signup-box{
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.signup-title{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(0, 0, 0, 0.801);
+}
+
+.inp-form{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
+.inp-form input {
+    width: calc(50% - 0.5rem);
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 0.1rem;
+    transition: border-color 0.3s ease;
+}
+
+.inp-form input#age,
+.inp-form input#address,
+.inp-form input#username,
+.inp-form input#password {
+    width: calc(100% - 0.5rem);
+}
+
+.inp-form input#lastname {
+    margin-left: 0.5rem; 
+}
+
+.inp-form input:focus {
+    outline: none;
+    border-color: #50281A;
+}
+
+.signup-btn {
+    width: 50%;
+    background-color: #3814c8;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+    background-color: #26089fbb;
+}
+
+p .signin-btn{
+    color: #3e3e3e;
+    text-decoration: none;
+}
+
+
+/* .container {
+    display: flex;
+    justify-content: space-between;
+}
+.formation{
+    border: 3px solid black;
+    text-align: center;
+    width: 50%;
+    height: 710px;
+}
+.box{
+    border: 3px solid black;
+    width: 50%;
+    height: 710px;
+}
+
+.image{
+    height: 710px;
+    width: 100%;
+}
+
+.lastbox{
+    width: 5%;
+    background-color: #201c1c;
+}
+
+.firstbox{
+    width: 5%;
+    background-color: #201c1c;
+}
+ */

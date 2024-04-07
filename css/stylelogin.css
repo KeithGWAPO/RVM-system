@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Merienda:wght@300..900&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #baf2ff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-all{
+    display: flex;
+    background-color: rgba(123, 123, 123, 0.493);
+    border-radius: 40px;
+    width: 1100px;
+    height: 80vh;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.left-right-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-box{
+    width: 550px;
+}
+
+.right-box{
+    width: 550px;;
+    background-color: white;
+}
+
+.left-upper-box{
+    align-items: flex-start;
+    width: 550px;
+    height: 50px;
+    background-color: #120d3f;
+}
+
+.right-upper-box{
+    align-items: flex-start;
+    width: 550px;
+    height: 50px;
+    background-color: #120d3f;
+}
+
+.logo{
+    border-radius: 500px;
+    margin-top: 15px;
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.492);
+}
+
+.h1t{
+    font-size:40px;
+    text-align: center;
+}
+
+.h2t{
+    font-style: normal;
+    text-align: center;
+}
+
+.title-box{
+    background-color: rgb(81, 81, 81);
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 50px;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.492);
+}
+
+.input-box{
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.492);
+}
+
+.login-title{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(0, 0, 0, 0.801);
+}
+
+label{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form input{
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.remember-me{
+    width: 15px;
+}
+
+form .login-btn{
+    margin-top: 10px;
+    font-size: 20px;
+    background-color:#3814c8;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: all 0.25s;
+}
+
+.login-btn:hover{
+    background-color: #26089fbb;
+    transition: all 0.25s;
+}
+
+form .signup-btn{
+    margin-top: 10px;
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color:#5743a7;
+    transition: all 0.25s;
+}
+
+.signup-btn:hover{
+    text-decoration: none;
+    background-color:#5743a7ab;
+    transition: all 0.25s;
+}
+
+
+
+
+
+/* .container {
+    display: flex;
+    justify-content: space-between;
+}
+.formation{
+    border: 3px solid black;
+    text-align: center;
+    width: 50%;
+    height: 710px;
+}
+.box{
+    border: 3px solid black;
+    width: 50%;
+    height: 710px;
+}
+
+.image{
+    height: 710px;
+    width: 100%;
+}
+
+.lastbox{
+    width: 5%;
+    background-color: #201c1c;
+}
+
+.firstbox{
+    width: 5%;
+    background-color: #201c1c;
+}
+ */
